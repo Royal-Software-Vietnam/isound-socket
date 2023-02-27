@@ -31,9 +31,7 @@ const io = new Server(server, {
 })
 
 async function main () {
-    __cache__.set(1, 'hello_world', 10000)
-    const value = __cache__.get(1)
-    console.log(value)
+
 }; main()
 
 let build_time = new Date()
